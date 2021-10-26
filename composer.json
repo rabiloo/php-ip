@@ -1,16 +1,16 @@
 {
-  "name": "vendor-slug/package-slug",
-  "description": "package-description",
+  "name": "rabiloo/ip",
+  "description": "An Ip library for PHP",
   "keywords": [
-    "vendor-slug",
-    "package-slug"
+    "rabiloo",
+    "ip"
   ],
-  "homepage": "https://github.com/github-uri",
+  "homepage": "https://github.com/rabiloo/php-ip",
   "license": "MIT",
   "authors": [
     {
-      "name": "author-name",
-      "email": "author@domain.com",
+      "name": "Oanh Nguyen",
+      "email": "oanhnn.bk@gmail.com",
       "role": "Developer"
     }
   ],
@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "VendorNamespace\\PackageNamespace\\": "src"
+      "Rabiloo\\Ip\\": "src"
     }
   },
   "autoload-dev": {

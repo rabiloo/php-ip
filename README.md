@@ -1,9 +1,9 @@
-# package-description
+# An Ip library for PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vendor-slug/package-slug.svg?style=flat-square)](https://packagist.org/packages/vendor-slug/package-slug)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/github-uri/run-tests?label=tests)](https://github.com/github-uri/actions?query=workflow%3ATests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/github-uri/Check%20&%20fix%20styling?label=code%20style)](https://github.com/github-uri/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/vendor-slug/package-slug.svg?style=flat-square)](https://packagist.org/packages/vendor-slug/package-slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rabiloo/ip.svg?style=flat-square)](https://packagist.org/packages/rabiloo/ip)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/rabiloo/php-ip/run-tests?label=tests)](https://github.com/rabiloo/php-ip/actions?query=workflow%3ATests+branch%3Amaster)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/rabiloo/php-ip/Check%20&%20fix%20styling?label=code%20style)](https://github.com/rabiloo/php-ip/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/rabiloo/ip.svg?style=flat-square)](https://packagist.org/packages/rabiloo/ip)
 
 ---
 This package can be used as to scaffold a framework agnostic package. Follow these steps to get started:
@@ -20,14 +20,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require vendor-slug/package-slug
+composer require rabiloo/ip
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorNamespace\PackageNamespace\SkeletonClass();
-$skeleton->hello('vendor-name!');
+$skeleton = new Rabiloo\Ip\Ip();
+$skeleton->hello('Rabiloo Co., Ltd!');
 ```
 
 ## Testing
@@ -50,7 +50,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [author-name](https://github.com/author-username)
+- [Oanh Nguyen](https://github.com/oanhnn)
 - [All Contributors](../../contributors)
 
 ## License

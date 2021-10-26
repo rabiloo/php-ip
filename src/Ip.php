@@ -1,8 +1,8 @@
 <?php
 
-namespace VendorNamespace\PackageNamespace;
+namespace Rabiloo\Ip;
 
-class SkeletonClass
+class Ip
 {
     /**
      * Create a new Skeleton Instance.
